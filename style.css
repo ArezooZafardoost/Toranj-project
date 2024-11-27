@@ -1,0 +1,666 @@
+*{
+  box-sizing: border-box;
+  font-family:"Vazirmatn", serif;  
+}
+
+@font-face{font-family: "IRANYEKAN";
+ src: url('./font/IRANYekanX-Bold.woff2')format('woff2') url('./font/IRANYekanX-Regular.woff2')format('woff2');
+}
+body{
+  background-color: rgb(252, 248, 248);
+  font-family: 'IRANYEKAN';
+
+}
+
+.container{
+  margin:  auto;
+  align-items: center;
+  background-color: white;
+  border-radius: 0 24px ;
+  box-shadow: 5px 5px rgb(230, 227, 227) ;
+  width: 1076px;
+  height: 67px;
+  top: -1px;
+  left: 183px;
+  gap: px;
+  border-radius: 0px 0px 24px 24px;
+  opacity: 0px;
+  size: 18px;
+  color: #000000;
+  padding: 10px;
+
+  
+
+}
+
+a{
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration:underline;
+  color: #239D60;
+
+}
+
+.flex{
+  display: flex;
+
+
+}
+.list-head{
+  display: flex;
+  flex-direction: row;
+  gap: 58px;
+  margin-right: 18px;
+  color: #000000;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  gap: 58px;
+}
+
+nav li { 
+  padding: 8px 0;
+}
+ul li{
+  list-style-type: none;
+ 
+}
+
+.flag{
+  margin: auto;
+  display: flex;
+  flex-direction: initial;
+  margin-left: 18px;
+  
+}
+.logo{
+  margin: auto;
+  align-items: center;
+  padding-right: 40px;
+  
+}
+.toranj img{
+  display: flex;
+  position: relative;
+  direction: ltr;
+  margin-top: 136px;
+  margin-left: 100px;
+  margin-right: 1032px;
+  margin-top: 136px;
+  
+
+}
+.toranj h1{
+  display: flex;
+  position:relative;
+  margin-right: 166px;
+  font-size: 48px;
+  line-height:82.91px;
+  text-align: right;
+  color: transparent;
+  background-image: linear-gradient(to left,#212125,#246D42);
+  background-clip: text;
+ 
+}
+.toranj-text{
+  display: flex;
+  position:relative;
+  margin-right: 260px;
+  margin-left: 662px;
+  margin-top: -460px;
+  font-weight: 700px;
+  line-height: 1.2px;
+
+}
+.toranj-line{
+  display: flex;
+  width: 612px;
+  height: 123px;
+  margin-right: 420px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41.45px;
+  text-align: right;
+  margin-top: -40px;
+
+
+}
+.product{
+  position: absolute;
+  background-color: #239D60;
+  color: white;
+  border: 1px solid #239D60;
+  box-shadow: 0px 16px 32px 0px #239D607A;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34.55px;
+  text-align: center;
+  width: Fixed (196px)px;
+  height: Hug (51px)px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 32px 16px 32px 16px;
+  opacity: 0px;
+  margin-right: 415px;
+  margin-top: 32px;
+ 
+}
+.slider-one {
+  direction: rtl;
+  width: 1076px;
+  height: 352px;
+  margin: 0 auto;
+  margin-top: 280px;
+  width: 1124px;
+  height: 352px;
+  border-radius: 160px 32px 32px 32px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.number-slide1 {
+  min-width: 306px;
+  max-width: 352px;
+}
+
+.number-slide2 {
+  min-width: 794px;
+  max-width: 352px;
+}
+
+.number-slide3 {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.number-slide4 {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.keen-slider__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* .king.id{
+  border-radius: 160px 32px 32px 32px;
+
+} */
+
+
+
+.feather{
+  direction: ltr;
+  top: 1552.4px;
+  left: 219.16px;
+  gap: 0px;
+  opacity: 0px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 1124px;
+  height: 406px;
+  top:1200px;
+  left:158px;
+  right: 218px;
+  margin:12px 158px;
+  background:  linear-gradient(270deg, #FF4F17 0%, #E73700 60.42%);
+  border-radius: 32px 160px 32px 32px;
+ 
+  
+
+}
+
+.card-picture{
+  width: Fixed (196px)px;
+  height: Hug (358px)px;
+  padding: 16px 0px 0px 0px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  margin: auto;
+  margin-top:14px;
+  margin-left: 24px;
+  direction: ltr;
+  gap: 20px;
+}
+
+
+.market{
+  top: 1328px;
+  left: 1062px;
+  gap: 12px;
+  opacity: 0px;
+  margin: auto;
+  margin-right: 25px;
+}
+.see{
+  display: flex;
+  position: absolute;
+  margin-top: 341px;
+  margin-left: 790px;
+ 
+
+}
+
+.Arrow{
+  display: flex;
+  position:absolute;
+  gap: 4px;
+  opacity: 0px;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 750px;
+
+}
+.featherone{
+width: 94.66px;
+height: 208.03px;
+top: 1255.33px;
+left: 1492.99px;
+gap: 0px;
+opacity: 0px;
+}
+.Products{
+  display: flex;
+  position: relative;
+  gap: 24px;
+  margin-right: 358px;
+  margin-top: -100px;
+}
+
+.feathertwo{
+  width: 79.14px;
+  height: 173.93px;
+  left: 0;
+  direction: ltr;
+  margin-right: 1810px;
+  margin-top: 190px;
+
+}
+.boxgreen{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 1124px;
+  height: 406px;
+  top: 1980px;
+  left:158px;
+  right: 218px;
+  margin:12px 158px;
+  background: linear-gradient(270deg, #239D60 0%, #A3DE83 60.42%);
+  border-radius: 32px 160px 32px 32px;
+
+}
+.written h1{
+  display: flex;
+  font-family: IRANYekan;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 41.45px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 200px;
+  margin-right: 37px;
+  color: white;
+ 
+
+}
+.written p{
+display: flex;
+font-family: IRANYekan;
+font-size: 11px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: -0.04em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 5px;
+margin-right: 37px;
+color: white;
+
+}
+.parrot{
+  margin-top:200px;
+}
+.backgreen{
+  direction: ltr;
+  margin-top: 80px;
+
+}
+.cardthree{
+ display: flex;
+ justify-content: center;
+ margin-top: -350px;
+ 
+
+
+}
+.featherthree{
+left: 0;
+direction: ltr;
+margin-right: 1810px;
+margin-top: 190px;
+}
+
+
+.boxblack{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 1124px;
+  height: 512px;
+  top: 4000px;
+  left:158px;
+  right: 218px;
+  margin:12px 158px;
+  background: #212125;
+  border-radius: 32px 160px 32px 32px;
+
+}
+
+.inscription h1{
+ 
+   width: Hug (216px)px;
+   height: Hug (66px)px;
+   /* padding: 2px 4px 2px 4px; */
+   gap: 10px;
+   opacity: 0px;
+   color: white;
+   margin-right: 50px;
+   margin-top: 50px;
+   
+}
+
+
+.inscription p{
+  display: flex;
+  /* position: relative; */
+  color: white;
+  width: Hug (318px)px;
+  height: Hug (28px)px;
+  padding: 2px 4px 2px 4px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 40px;
+  margin-top: 20px;
+  
+
+
+}
+
+.seeon{
+display: flex;
+position: absolute;
+margin-top: -39px;
+margin-right: 400px;
+
+
+}
+.pet{
+  display: flex;
+  position: relative;
+
+}
+.part{
+ margin-right: 24px;
+ margin-top: 24px;
+ padding-top: 0px;
+
+ 
+
+}
+
+
+.parttwo{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: -140px;
+  margin-left: 24px;
+}
+
+
+
+.Commercialcompany{
+  margin-top: 180px;
+  text-align: center;
+
+
+}
+
+
+.featherfure{
+  direction: rtl;
+  width: 137.44px;
+  height: 302.06px;
+  top: 4696.67px;
+  left: 1390.33px;
+  gap: 0px;
+  opacity: 0px;
+
+
+
+}
+
+.frame{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -280px;
+}
+
+
+.Trumpet{
+  margin-right: 169px;
+  margin-top: 152px;
+}
+
+.boxix{
+margin-right: 260px;
+margin-top: -40px;
+
+
+}
+
+.Membership{
+  display: flex;
+  position:relative;
+  width: 850px;
+  height: 120px;
+  background-color: #FFFFFF;
+  border: 1px;
+  margin-top:-118px;
+  margin-right: 250px;
+  border-radius: 32px;
+  z-index: 10px;
+
+}
+.highlight {
+  color: #239D60;
+}
+
+.Membership h3{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  font-family: IRANYekan;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34.55px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-right: 20px;
+  
+  
+
+}
+.Membership p{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  font-family: IRANYekan;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.64px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-right: 20px;
+  margin-top: 60px;
+
+}
+.action{
+  display: flex; 
+  align-items: center; 
+
+ 
+  
+}
+.action input{
+width: 229px;
+height: 40px;
+border-radius: 32px 16px 32px 16px;
+gap: 10px;
+padding: 4px 16px 4px 8px;
+font-family: IRANYekan;
+font-size: 12px;
+font-weight: 400;
+line-height: 20.73px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #707070;
+box-shadow: 5px 5px rgb(230, 227, 227) ;
+border: 1px solid rgb(247, 244, 244);
+background-color: white;
+margin-right: 496px;
+margin-top: 54px;
+
+
+  
+
+}
+
+.action input[type="submit"]{
+   position: absolute;
+   margin-right: 670px;
+   margin-top: 54px;
+   padding: 4px 16px 4px 8px;
+   width: 60px;
+   height: 40px;
+   border-radius: 32px 16px 32px 16px;
+   color: white;
+   background-color: #239D60;
+   text-align: center;
+}
+
+.footerone{
+  width: 100%;
+  height: 360px;
+  margin-top: 260px;
+  margin-bottom: 10px;
+  border-radius: 0px 160px 0px 0px;
+  background: linear-gradient(180deg, #212125 0%, rgba(33, 33, 37, 0) 100%);
+  background-color: #000000;
+  text-align: right;
+  padding: 20px;
+  
+
+
+
+  
+}
+.Parrot{
+  display: flex;
+  position: absolute;
+  margin-right:1400px;
+  margin-top: -516px;
+  
+
+
+
+}
+
+.footerone h4{
+  margin-right: 89px;
+  color: #239D60;
+  font-family: IRANYekan;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 31.09px;
+  text-align: justified;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 5px;
+
+ 
+
+  
+}
+.footerone p{
+  margin-top: 70px;
+  font-family: IRANYekan;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27.64px;
+  text-align:right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  gap: 30px;
+  margin: 5px 10px;
+  margin-right: 89px;
+  
+ 
+  
+
+}
+
+.footer-Below p{
+ 
+  font-family: IRANYekan;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 29.72px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:rgb(255, 255, 255);
+  gap: 30px; 
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-right: 800px;
+  
+
+  
+
+}
+.footer-Below h4{
+  color: #239D60;
+  font-family: IRANYekan;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 31.09px;
+  text-align: justified;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 5px;
+  margin-top: -325px;
+  margin-right: 800px;
+
+ 
+
+  
+}
